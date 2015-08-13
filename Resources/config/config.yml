@@ -1,0 +1,7 @@
+plugin:
+    has_options: false
+    resources:
+        -
+            class: FormaLibre\ChatBundle\Entity\Chat
+            name: formalibre_chat
+            is_exportable: false
